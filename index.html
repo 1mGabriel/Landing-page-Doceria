@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choco4Life</title>   
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+    crossorigin="anonymous">
+    <!--Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script  src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+    <!-- controle de animções -->
+    <script src="js/script.js" defer ></script>
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <div class="header-container">
+                <h1 class="logo">Choco<span>4</span>LIFE</h1>
+                <div class="links">
+                    <a id="link"href=""><p>Home</p></a>
+                    <a id="link"href=""><p>Produtos</p></a>
+                    <a id="link"href=""><p>Contatos</p></a>
+                </div>
+            </div>
+        </header>
+        <section id="carrousel">
+        <div class="carrosel-container">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div id="active" class="carousel-item active" data-bs-interval="10000">
+                        <img src="img/banner0.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div id="active" class="carousel-item" data-bs-interval="2000">
+                        <img src="img/banner2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div id="active" class="carousel-item">
+                        <img src="img/banner3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next </span>
+                </button>
+            </div>
+        </section>
+        <section>
+            <div class="comment">
+                <div class="h1p">
+                <h1>Nossos Produtos</h1>
+                <p>"Se você está procurando uma explosão de sabor e indulgência, não procure mais! Nossos produtos de chocolates artesanais são a combinação perfeita de qualidade premium e irresistível tentação. 
+                    De trufas sedutoras a barras luxuosas, cada mordida é uma experiência de prazer puro. Prepare-se para se deliciar com o melhor do mundo dos chocolates!" </p>
+                </div>
+                <div class="freatures-container">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-medal"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                </div>
+                <div class="freature-content">
+                    <div class="freature">
+                        <p>Descubra nossa seleção cuidadosamente escolhida de chocolates premium, feitos com ingredientes de alta qualidade e técnicas artesanais.</p>
+                    </div>
+                    <div class="freature">
+                        <p>De trufas indulgentes a barras de chocolate artesanais, mergulhe nesta seleção que representa o ápice da excelência chocolatier.</p>
+                    </div>
+                    <div class="freature">
+                        <p>Aqui, você encontrará uma seleção dos produtos mais bem avaliados, cuidadosamente escolhidos com base no feedback positivo e na satisfação dos nossos consumidores.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="products">
+            <div class="products-container">
+                    <div>
+                    <h1 id="h1" data-aos="fade-right" >Chocolate em barra</h1>
+                    </div>
+                    <div >
+                    <p id="p" data-aos="fade-left">Chocolate em barra 70% sabor ao leite, amargo, meio amargo e branco!</p>
+                    </div>
+                    <div>
+                    <img class="products-image" data-aos="zoom-in" src="img/barraChcolate.jpg" alt="">
+                    </div>
+                    <div>
+                        <button  data-aos="zoom-out" class="encomend-btn">ENCOMENDAR</button>
+                    </div>
+                    <div >
+                    <h1 id="h1" data-aos="fade-left">Trufa</h1>
+                    </div>
+                    <div>
+                    <p id="p"  data-aos="fade-right">Recheadas com nutela, morango, maracuja, limão ou prestigio!</p>
+                    </div>
+                    <div>
+                    <img class="products-image" data-aos="zoom-in" src="img/trufas.jpeg" alt="">
+                    </div>
+                    <div >
+                        <button data-aos="zoom-out" class="encomend-btn">ENCOMENDAR</button>
+                    </div>
+                    <div >
+                    <h1 id="h1"  data-aos="fade-up">Bombom</h1>
+                    </div>
+                    <div >
+                    <p id="p" data-aos="fade-down">Bombons sortidos 50% cacau com recheios diversos!</p>
+                    </div>
+                    <div>
+                    <img class="products-image" data-aos="zoom-in" src="img/bombom.jpg" alt="">
+                    </div>
+                    <div >
+                        <button data-aos="zoom-out" class="encomend-btn">ENCOMENDAR</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="other-products">
+                    <h1>Outros de nossos Produtos</h1>
+                <div class="other-products-container">
+
+                    <div id="animation" class="fade1" data-aos="fade-right">
+                        <div class="other-product">
+                            <img src="img/brigadeiro.png" alt="brigadeiro">
+                            <h4>Brigadeiro Gourmet</h4>
+                            <p>Brigadeiro coberto de flocos de chcolate</p>
+                            <button>COMPRAR</button>
+                        </div>
+                        <div  class="other-product">
+                            <img src="img/bolocenoura.png" alt="brigadeiro">
+                            <h4>Bolo de Cenoura</h4>
+                            <p>Bolo fofinho com ganahce de chcolate</p>
+                            <button>COMPRAR</button>
+                        </div>
+                        <div class="other-product">
+                            <img src="img/carolinas-de-doce-de-leite.jpg" alt="carolina">
+                            <h4>Carolina</h4>
+                            <p>Mini carolinas recheadas com doce de leite</p>
+                            <button>COMPRAR</button>
+                        </div>
+                    </div>
+                    <div id="animation" class="fade2"data-aos="fade-left">
+                    <div class="other-product">
+                        <img src="img/ovospascoa.jpeg" alt="ovoPascoa">
+                        <h4>Ovo de Chocolate</h4>
+                        <p>Delicioso ovo de chcolate com variedade de sabores</p>
+                        <button>COMPRAR</button>
+                    </div>
+                    <div class="other-product">
+                        <img src="img/donuts.jpg" alt="donuts">
+                        <h4>Donuts</h4>
+                        <p>Donuts com recheio de cobertura de sua preferência</p>
+                        <button>COMPRAR</button>
+                    </div>
+                    <div class="other-product">
+                        <img src="img/cookies.jpg" alt="cookie">
+                        <h4>Cookie Americano</h4>
+                        <p>Uma maravilha de cookie com gotas de chocolate</p>
+                        <button>COMPRAR</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="contacts">
+                <h1>Fale Conosco</h1>
+                <input type="email" placeholder="Digite@seuEmail.com">
+                <textarea cols="30" rows="5" placeholder="Digite sua mensagem..."></textarea>
+                <button>ENVIAR</button>    
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-solid fa-at"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </footer>
+    <!-- Iniciar Animação -->
+        <script >
+            AOS.init();
+        </script>
+</body>
+</html>
